@@ -1,4 +1,53 @@
+body {
+    line-height: 1.4;
+    font-family: "Source Sans Pro", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+#logo {
+    color: rgb(240, 240, 30);
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+#zon {
+    color: rgb(113, 170, 59);
+}
+
 #iconUser {
     text-decoration: none;
     color: black;
+}
+
+#slogon {
+    margin-bottom: 30rem;
+}
+
+#slog {
+    font-family: cursive;
+    font-size: 3rem;
+}
+
+.carousel-caption>h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 5rem;
+    color: yellow;
+}
+
+.btn-warning {
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    color: rgb(113, 170, 59);
+    letter-spacing: 1px;
+    line-height: 33px;
+    border: 2px solid rgb(113, 170, 59);
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-warning:hover {
+    color: #FFF;
+    background: rgb(113, 170, 59);
+    border: 2px solid rgb(113, 170, 59);
 }
