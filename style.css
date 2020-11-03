@@ -2,6 +2,12 @@ body {
     line-height: 1.4;
     font-family: "Source Sans Pro", sans-serif;
     -webkit-font-smoothing: antialiased;
+    background-color: #f7f7f7;
+}
+
+.navbar-nav>ul {
+    padding-left: 30px;
+    color: red;
 }
 
 #logo {
@@ -19,9 +25,10 @@ body {
     color: black;
 }
 
-#slogon {
-    margin-bottom: 30rem;
-}
+
+/*#slogon {
+    padding-bottom: 50vh;
+}*/
 
 #slog {
     font-family: cursive;
@@ -50,4 +57,11 @@ body {
     color: #FFF;
     background: rgb(113, 170, 59);
     border: 2px solid rgb(113, 170, 59);
+}
+
+
+/**********************************Section2********************************************************/
+
+.Contain1 {
+    background-color: rgb(228, 225, 225);
 }
