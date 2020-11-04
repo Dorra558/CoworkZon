@@ -3,6 +3,8 @@ body {
     font-family: "Source Sans Pro", sans-serif;
     -webkit-font-smoothing: antialiased;
     background-color: #f7f7f7;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .navbar-nav>ul {
@@ -64,4 +66,144 @@ body {
 
 .Contain1 {
     background-color: rgb(228, 225, 225);
+}
+
+
+/*************************************Section évenements***************************************************************/
+
+
+/**************************************statistiques********************************************************/
+
+
+/*************************Témoignages section*****************************************/
+
+.img-text {
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 40% 5%;
+    background: #262626;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.img-text h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.img-text p {
+    font-size: 14px;
+}
+
+.single-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.img-area {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 5px solid#fff;
+    overflow: hidden;
+    top: 15px;
+    left: 125px;
+    border-radius: 50%;
+}
+
+.img-area img {
+    width: 100%;
+}
+
+.carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -40px;
+}
+
+.carousel-indicators li {
+    background: #000;
+    border-radius: 50%;
+    width: 19px;
+    height: 5px;
+}
+
+.carousel-indicators .active {
+    background: rgb(252, 53, 53);
+}
+
+.Contain2 {
+    background-color: linen;
+}
+
+
+/****************************************Footer**************************************************/
+
+footer {
+    background-color: #697004;
+    position: absolute;
+    color: rgb(218, 209, 209);
+    width: 100vw;
+}
+
+.social {
+    padding: 0;
+}
+
+.footer h4 {
+    padding: 5px 0px;
+}
+
+.social li {
+    display: inline-block;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    padding: 0.3rem;
+}
+
+.social li:hover {
+    background-color: rgb(34, 37, 2);
+    text-decoration: none;
+}
+
+.social li a i:hover {
+    color: white;
+}
+
+.social li a i {
+    color: rgb(53, 52, 52);
+    transition: .3s;
+    font-size: 30px;
+}
+
+.footer .links ul {
+    list-style-type: none;
+}
+
+.footer .links li a {
+    color: #fff;
+    transition: color 0.2s;
+}
+
+.footer .links li a:hover {
+    text-decoration: none;
+    color: rgb(34, 37, 2);
+}
+
+.footer .location i {
+    font-size: 18px;
+}
+
+.footer .copyright p {
+    font-size: 1.3rem;
+    text-shadow: 1px 1px black;
+    border-top: 1px solid rgb(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgb(255, 255, 255, 0.8);
 }
